@@ -1,0 +1,32 @@
+[
+  {
+    "name": "BeetWarden",
+    "href": "",
+    "source": "https://github.com/andres039/beetWarden",
+    "image": "/images/beets.png",
+    "description": "A password manager built with Convex on the backend, Next.js and Mantine.dev.",
+    "live": "https://magenta-crisp-ec130f.netlify.app/"
+  },
+  {
+    "name": "Drafting Portfolio",
+    "href": "",
+    "source": "https://github.com/andres039/draft",
+    "image": "/images/front.png",
+    "description": "A portfolio that shows images and blueprints. Built with Next.js and styled with Mantine.dev..",
+    "live": "https://main--effulgent-longma-124567.netlify.app/"
+  },
+  {
+    "name": "Trash Panda",
+    "href": "/projects/trash panda",
+    "source": "https://github.com/andres039/Upcycle-Cradle-Montreal",
+    "image": "/images/welcome.png",
+    "description": "An application to help people notify other users on a map about their discarded but still useful furniture, in an effort to reduce the amount of garbage in the city of Montreal."
+  },
+  {
+    "name": "Point Of Sale",
+    "href": "/projects/pos application",
+    "image": "/images/Login.png",
+    "source": "https://github.com/andres039/POS-Frontend",
+    "description": "A point of sale application for a pharmacy in Panama, built with React, Bootstrap and Bulma."
+  }
+]
