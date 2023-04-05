@@ -12,7 +12,7 @@
     "href": "",
     "source": "https://github.com/andres039/draft",
     "image": "/images/front.png",
-    "description": "A portfolio that shows images and blueprints. Built with Next.js and styled with Mantine.dev..",
+    "description": "A portfolio that shows images and blueprints. Built with Next.js and styled with Mantine.dev.",
     "live": "https://main--effulgent-longma-124567.netlify.app/"
   },
   {

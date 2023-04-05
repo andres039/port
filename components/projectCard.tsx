@@ -25,7 +25,7 @@ const ProjectCard = ({ project }: Project) => {
   return (
     // <Link href={project.href || ""}>
       <Card
-        sx={{ cursor: "pointer", width: 300, height: 550, ml: 4 }}
+        sx={{ cursor: "pointer", width: 300, height: 550 }}
         raised={hover}
         onMouseOver={() => setHover(true)}
         onMouseOut={() => setHover(false)}

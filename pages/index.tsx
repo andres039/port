@@ -12,32 +12,26 @@ export default function Home() {
         <title>Andrés Beltrán</title>
         <link rel="icon" href="/favicon-16x16.png" />
       </Head>
-      <Container sx={{ minWidth: "90vw" }}>
+      <Container maxWidth="md">
         <About />{" "}
         <Typography
           color="primary"
-          variant="h5"
-          sx={{ textAlign: "center", mb: 6 }}
+          variant="h4"
+          sx={{ textAlign: "center", my: 6 }}
         >
-          Projects:
+          Projects
         </Typography>
-        <Container sx={{ mr: -3 }}>
+        <Container>
           <Grid
             container
             spacing={4}
             // direction="column"
             // alignItems="center"
             justifyContent="center"
-            sx={{ width: "50vw" }}
+            sx={{ maxWidth: "100vw", mt: 4 }}
           >
             {projectsInfo.map((project) => (
-              <Grid
-                item
-                // xs={12}
-                // md={6}
-                sx={{ m: 0 }}
-                key={project.name}
-              >
+              <Grid item md={6} key={project.name}>
                 <ProjectCard project={project} />
               </Grid>
             ))}

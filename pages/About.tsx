@@ -10,16 +10,21 @@ const About = () => {
           <Stack
             justifyContent="center"
             alignItems="center"
-            spacing={{ xs: 4, sm: 4, md: 4 }}
+            spacing={{ xs: 6, sm: 6, md: 6 }}
             padding={"5%"}
-            mx={{ md: "20%", sm: "5%" }}
+            mx={{ md: "10%", sm: "5%" }}
           >
-            <Typography paragraph>
+             <Avatar
+              alt="Picture of Andres"
+              src="/images/front.jpg"
+              sx={{ width: 116, height: 116 }}
+            />
+            <Typography paragraph fontSize={22}>
               Hi. My name is Andres Beltran. I&apos;m a Web developer with a
               background in Philosophy. I aim to write code that is easy to
               understand and to integrate to existing codebases.
             </Typography>
-            <Typography>
+            <Typography fontSize={22}>
               I currently contribute whenever I find the time to{" "}
               <Link href="https://greenstand.org/"> Greenstand</Link>, solving issues
               that relate to React, Material UI, or calls from the API, and to{" "}
@@ -28,11 +33,7 @@ const About = () => {
               </Link>
               , adding teacher&apos;s biographies in markup language.
             </Typography>
-            <Avatar
-              alt="Picture of Andres"
-              src="/images/front.jpg"
-              sx={{ width: 116, height: 116 }}
-            />
+
           </Stack>
 
           {/* <Typography paragraph>
