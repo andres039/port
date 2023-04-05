@@ -27,7 +27,7 @@ const About = () => {
             <Typography fontSize={22}>
               I currently contribute whenever I find the time to{" "}
               <Link href="https://greenstand.org/"> Greenstand</Link>, solving issues
-              that relate to React, Material UI, or calls from the API, and to{" "}
+              that relate to React, Material UI, or calls to the API, and to{" "}
               <Link href="https://buddhistuniversity.net/">
                 The Open Buddhist University
               </Link>
