@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Trash Panda",
+    "stack": "React.js, Sass, Express, PostgreSQL",
+    "link": "https://github.com/andres039/Upcycle-Cradle-Montreal",
+    "text": [
+      "An application created with the intention to reduce the amount of furniture headed to the landfill in the city of Montreal. As a student hub, Montreal has a large amount of useful furniture sitting curbside. Trash Panda is a map based application that allows users to notify others about available furniture, their details and location.",
+      "As a final project for Lighthouse Labs, Trash Panda was created in a team of three developers. We were able to go through many aspects of the developments of the application together, however we had to somewhat specialize to speed up the process. My main contribution to the project was on the backend, connecting to the database and creating the endpoints that allow for the rest of the application to create, update and delete records. Initially I tried to set up Prisma to handle the database, but since we had a limited amount of time I had to keep the system that we learned at Lighthouse Labs, which was straight up PostgreSQL connected to Express with the help of the PG library.",
+      " My main contribution to the project was on the backend, connecting to the database and creating the endpoints that allow for the rest of the application to create, update and delete records. Initially I tried to set up Prisma to handle the database, but since we had a limited amount of time I had to keep the system that we learned at Lighthouse Labs, which was straight up PostgreSQL connected toExpress with the help of the PG library.",
+      "We have a simple Registration and Login system, using the users email and a password that we hashed into the database.",
+      " The application is built with React and the CSS is completely custom, using Sass to make our lives easier. The main challenge with React was the use of the Context API.",
+      "We really enjoyed adding the map and its functionality, connecting to an API was very exiting, an being able to see the furniture with a picture, location and description in the map, along with the functionalities of creating, updating and deleting a pin was delightful.",
+      "There were many challenges and leaning opportunities during the process, but I must say that working as a team was both the biggest challenge and greatest gain during the process. I couldn’t believe how much I learned by working as a team, keeping track of our activities in Trello, connecting through Slack, an updating our repo with different branches on Github, as well as supporting each other."
+    ],
+    "images": [
+      { "path": "/images/claim_item.png", "alt": "Claim item form" },
+      { "path": "/images/available_item.png", "alt": "Select an item" },
+      { "path": "/images/create_new_item.png", "alt": "Create new item" }
+    ]
+  },
+  {
+"title": "POS application",
+"stack":"React, Bootstrap and Bulma.",
+"link": "",
+"text": ["This application is my first ‘live’ creation, and it will be used by\n            the cashiers and administrators at a pharmacy. Currently, the\n            pharmacy is using an outdated application and our job was to make a\n            more modern and practical version. I was presented with the chance\n            to build the whole front end and I chose to use and test my React\n            skills. We are a team composed of four people, a designer, two Java\n            engineers and myself. Thanks to Github and Jira we have been able to\n            maintain a standard work flow through open communication. We work\n            from a private Github repo, so if you are interested in looking at\n            the source code or seeing the product in action please message me, I\n            will be very happy to give you a tour.", " The back end is being built with Java, and the back end engineers\n            communicate logistics to the team with the help of Swagger. Our\n            application calls the API to display different kinds of data: the\n            users name, the users role, the history of receipts, bills and past\n            transactions. It is also possible to include new users or to remove\n            existing ones.", "For the first time I have implemented a ‘forgot my password’ section, which allows the user to reset their password. This has been one of the biggest challenges for the whole application.", " Using modals through the application in order to display detailed tables of information and search utilities were challenging, but it was ultimately satisfying to clearly organize the information and create a minimal, user friendly interface. The implementation of search bars which made requests to the endpoint was another achievement I’m quite proud of.", "One of the requirements from the client was to avoid using the standard scroll bars when running up and down through the product table. To comply with this request, I built a stack of buttons with a custom hook and using the powers of Bulma, I made the buttons visible only when the user reached either end of the table. (These scroll buttons are at the bottom right)", " We are still finishing a few details before deployment, but we hope to have it soon working and available for users."],
+"images": [{"path": "/images/usuarios.png", "alt": "cashiers list with the option to add or delete an email"}, {"path": "/images/forgot.png", "alt":"forgot your password input form" }, {"path": "/images/modal.png", "alt": "Modal displaying a list of customers and search options at the top"}]
+  }
+]
